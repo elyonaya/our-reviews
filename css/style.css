@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    background-color: #f1f5f8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body h1 {
+    margin-bottom: 25px;
+}
+
+body .review {
+    width: 45%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgb(187, 186, 186);
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#name {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#job {
+    color: #49a6e9;
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+
+#infostext {
+    width: 90%;
+    color: grey;
+    margin: 0;
+}
+
+.buttons1 {
+    background-color: white;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.buttons2 {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #49a6e9;
+    color: #49a6e9;
+    background-color: #ebf7ff;
+}
+
+button img {
+    height: 20px;
+    width: 20px;
+}
